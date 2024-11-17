@@ -132,18 +132,13 @@ GROUP BY Product
 ![SQL ANALYSIS REPORT 4](https://github.com/user-attachments/assets/a0cc5e3c-7b8b-4d40-bd4b-9736ce1c3b99)
 
 ### POWER BI
+![Screenshot 2024-11-17 183433](https://github.com/user-attachments/assets/c2eb1d1b-48a6-4cca-8854-d2e9e6f6c56e)
 
 
 
-
-
-
-# INFRENCE
+# INFERENCE
 
 # CONCLUSION
 
 # RECOMMENDATION
 
-
-
-#
