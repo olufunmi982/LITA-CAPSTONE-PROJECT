@@ -61,13 +61,18 @@ This model was used to write to write queries for all necessary reports needed, 
 =AVERAGE(H2:H9922)
 
 ### EXCEL REPORTS (PIVOT TABLES AND PIVOT CHARTS)
-![SALES EXCEL VISUAL](https://github.com/user-attachments/assets/0213a58a-8fa9-464f-895b-11c7f136d50e)
+![Screenshot 2024-11-05 144329](https://github.com/user-attachments/assets/971adab5-7735-4f59-ac61-dc96e0ad09ee)
 
-![SALES EXCEL VISUAL 2](https://github.com/user-attachments/assets/7c8dec6b-ee41-42b5-bd08-d7d8c3f5d290)
+![Screenshot 2024-11-05 144354](https://github.com/user-attachments/assets/58ec337c-fbd9-447d-838b-e7a818a18ba1)
 
-![SALES EXCEL VISUAL 3](https://github.com/user-attachments/assets/ca74922a-2ccd-41df-aacb-327b04ce72cb)
+![Screenshot 2024-11-05 144430](https://github.com/user-attachments/assets/589c7d81-e0d4-43df-921a-bd93d78ef54e)
 
-![SALES EXCEL VISUAL 4](https://github.com/user-attachments/assets/1b048f60-9b04-4f16-bfb6-f5983c849dab)
+![Screenshot 2024-11-05 144250](https://github.com/user-attachments/assets/24526778-d1d9-4197-ad4c-92cf3298a850)
+
+![Screenshot 2024-11-05 144537](https://github.com/user-attachments/assets/4508718b-0d39-4f08-9e00-818dcf0fd307)
+
+![Screenshot 2024-11-05 144527](https://github.com/user-attachments/assets/fb7b0a74-1fb0-44c0-a97f-60b82acbc088)
+
 
 ### ANALYSIS ON SQL
 - Retrieve the total sales for each product category
