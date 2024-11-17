@@ -48,16 +48,79 @@ This model was used to write to write queries for all necessary reports needed, 
 ```
 =SUM(F2:F9922)
 ```
-Average Quantity Sold
+- Average Quantity Sold
 ```
 =AVERAGE(F2:F9922)
 ```
-TOTAL SALES
+- TOTAL SALES
 ```
 =SUM(H2:H9922)
 ```
-AVERAGE REVENUE
+- AVERAGE REVENUE
 ```
 =AVERAGE(H2:H9922)
 
-  
+### EXCEL REPORTS (PIVOT TABLES AND PIVOT CHARTS)
+![SALES EXCEL VISUAL](https://github.com/user-attachments/assets/0213a58a-8fa9-464f-895b-11c7f136d50e)
+
+![SALES EXCEL VISUAL 2](https://github.com/user-attachments/assets/7c8dec6b-ee41-42b5-bd08-d7d8c3f5d290)
+
+![SALES EXCEL VISUAL 3](https://github.com/user-attachments/assets/ca74922a-2ccd-41df-aacb-327b04ce72cb)
+
+![SALES EXCEL VISUAL 4](https://github.com/user-attachments/assets/1b048f60-9b04-4f16-bfb6-f5983c849dab)
+
+### ANALYSIS ON SQL
+- Retrieve the total sales for each product category
+```
+SELECT Product,SUM(Quantity*UnitPrice) as Total_Sales
+FROM [dbo].[Sales Data 2]
+GROUP BY Product
+```
+- Find the number of sales transactions in each region
+```
+SELECT Region,SUM(Quantity*UnitPrice) as Total_Sales
+FROM [dbo].[Sales Data 2]
+GROUP BY Region
+```
+- Find the highest-selling product by total sales value
+```
+SELECT Product, SUM(Quantity*UnitPrice) as Total_Sales
+FROM[dbo].[Sales Data 2]
+GROUP BY Product
+```
+- Calculate total revenue per product
+```
+SELECT Product,Sum(Revenue) As Total_Revenue
+FROM[dbo].[Sales Data 2]
+GROUP BY Product
+```
+- Find the top 5 customers by total purchase amount
+```
+SELECT Top 5 Customer_Id,SUM(Quantity) AS Total_Purchase
+FROM[dbo].[Sales Data 2]
+GROUP BY Customer_Id
+ORDER BY Total_Purchase DESC
+```
+- Calculate the percentage of total sales contributed by each region
+```
+SELECT Region, SUM(Revenue)/SUM(Quantity*UnitPrice)*0.1 AS Percebtage_of_Total_Sales
+FROM [dbo].[Sales Data 2]
+GROUP BY Region
+ORDER BY Percebtage_of_Total_Sales
+```
+- Identify products with no sales in the last quarter
+```
+SELECT Product,SUM(Quantity) AS Sales
+FROM [dbo].[Sales Data 2]
+WHERE MONTH(OrderDate) BETWEEN 10 AND 12 -- Months 10, 11, and 12 (October to December)
+GROUP BY Product
+```
+
+### SQL REPORTS
+![SQL ANALYSIS REPORT 1](https://github.com/user-attachments/assets/9b831e2c-ae14-4764-b432-e9e31d54cafc)
+
+![SQL ANALYSIS REPORT 2](https://github.com/user-attachments/assets/724e7485-e120-4708-bdef-73d88efddfa4)
+
+![SQL ANALYSIS REPORT 3](https://github.com/user-attachments/assets/d2eb1a53-d956-453c-83f4-e7db2e89b471)
+
+![SQL ANALYSIS REPORT 4](https://github.com/user-attachments/assets/a0cc5e3c-7b8b-4d40-bd4b-9736ce1c3b99)
