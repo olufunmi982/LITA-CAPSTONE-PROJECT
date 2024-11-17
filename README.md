@@ -130,3 +130,6 @@ GROUP BY Product
 ![SQL ANALYSIS REPORT 3](https://github.com/user-attachments/assets/d2eb1a53-d956-453c-83f4-e7db2e89b471)
 
 ![SQL ANALYSIS REPORT 4](https://github.com/user-attachments/assets/a0cc5e3c-7b8b-4d40-bd4b-9736ce1c3b99)
+
+
+
