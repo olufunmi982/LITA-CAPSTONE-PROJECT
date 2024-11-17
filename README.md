@@ -59,6 +59,7 @@ This model was used to write to write queries for all necessary reports needed, 
 - AVERAGE REVENUE
 ```
 =AVERAGE(H2:H9922)
+```
 
 ### EXCEL REPORTS (PIVOT TABLES AND PIVOT CHARTS)
 ![Screenshot 2024-11-05 144329](https://github.com/user-attachments/assets/971adab5-7735-4f59-ac61-dc96e0ad09ee)
