@@ -32,5 +32,32 @@ This model was used to write to write queries for all necessary reports needed, 
 
 - Power BI visuals was used to present the reports on  power BI
 
+### DATA ANALYSIS
+
+##### The following analysis was done on excel using excel formulas and functions
+
+- To calculate Revenue
+```
+= F2*G2
+```
+- To get transaction category
+```
+=IF(F2<=5,"Low",IF(F2<=10,"Medium","High"))
+```
+- Total Quantity Sold
+```
+=SUM(F2:F9922)
+```
+Average Quantity Sold
+```
+=AVERAGE(F2:F9922)
+```
+TOTAL SALES
+```
+=SUM(H2:H9922)
+```
+AVERAGE REVENUE
+```
+=AVERAGE(H2:H9922)
 
   
