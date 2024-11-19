@@ -6,7 +6,7 @@ An overview of Incubator hub capstone project
 
 The Analysis of Capstone Sales data dealt with the overview of the product performance of capstone sales data as it relate with some factors affecting these products.
 
-### DATA SOURSES
+### DATA SOURCES
 - Microsoft Excel (Download Here)
 - Capstone sales data set
 
