@@ -132,6 +132,8 @@ GROUP BY Product
 ![SQL ANALYSIS REPORT 4](https://github.com/user-attachments/assets/a0cc5e3c-7b8b-4d40-bd4b-9736ce1c3b99)
 
 ### POWER BI
+Below are the visuals on Power BI
+![Screenshot 2024-11-19 181956](https://github.com/user-attachments/assets/915e93a9-d419-4a2e-a19b-c84b563fe45e)
 
 
 
