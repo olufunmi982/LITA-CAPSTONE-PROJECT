@@ -139,7 +139,24 @@ Below are the visuals on Power BI
 
 # INFERENCE
 
+-In all the six product analysed, the product with the highest quantities  sold is Hat with 15,929 quantities sold,followed by shoes with 14,402 quantities sold.on the other hand,jacket has the least quantities sold with 5,452 quantities sold.
+-Shoe has the highest revenue of 613,380 with 14,402 quantities sold,followed by shirt with revenue of 485,600 with 12,388 quantities sold and the product with the least revenue generated is socks with 180,785 quantities sold
+-The south region has the highest revenue with 927,820 while the west region is the lowest revenue of 300,345
+-The south region generated an average revenue of 374.1 which is the highest while the west generated the lowest average of 121.3.
+-Shoes are the highest performing product overall and it is popular in the southern region with 68.95% of the overall total revenue foer shoes in the four region
+-There were no sales recorded in the Nothern region
+-Hat is the product with the highest sold and the sales was recorded in the East with 56.32% of the quantity sold.
+-Jacket has no sales in the South and also in the West,same as shirt
+-Socks has no  sales recorded in the Northerh region,also gloves as well
+-No product has sales in all the four region,only shoes has sales in three region
+
 # CONCLUSION
 
+-it can be concluded from this analysis that the price of a product and the region affect the performance of the product.
+-Hat has the highest quantity sold in the East,due to the fact that
+(1i) The price of Hat in the East is #7 and
+(ii) Hat is part of their wears custormarily so the demand for it will be high. Also in western region hat sold well but the price was #50,this can be the reason why is less performing.
 # RECOMMENDATION
 
+- the company should leverage on the custom and the tradition qualities of a particular region in the supply of products to the region,the west for example would have perform better if it is head gear and caps were supplied alongside Hats,if sandals and snikers were supplied along side shoes to the west,the Revenue generated in the West will be improved.
+-The supply of sandals or a different design of foot wear should be considered for the Northern region.
